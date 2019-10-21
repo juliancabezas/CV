@@ -1,13 +1,13 @@
 ---
 name: Julián Cabezas
-position: "Consultor Independiente y Profesional de apoyo FAO"
-address: "Nacionalidad Chilena, residencia en Santiago de Chile"
+position: "Independent Consultant and FAO Support Professional"
+address: "Chilean, Residence in en Santiago de Chile"
 phone: +569 88678357
 www: juliancabezas.com
 email: "juliancabezas@gmail.com"
 github: juliancabezas
 linkedin: juliancabezas
-aboutme: "Sistemas de Información Geográfica, Teledetección, Machine Learning, R"
+aboutme: "Data science, GIS, Remote Sensing, R Programming, Teledetección, Machine Learning, R"
 date: "`r format(Sys.time(), '%B %Y')`"
 output: vitae::awesomecv
 ---
@@ -20,16 +20,14 @@ library(tidyverse)
 
 # Perfil Profesional
 
-Mi modo de trabajar se basa en la capacidad de enfrentar desafíos que incluyan el análisis de datos de variadas fuentes, generando algoritmos de análisis de información satelital, propuestas de planificación territorial y mejoras en metodologías estadísticas, Trabajando ya sea como consultor, profesional permanente o investigador.
-
-Mi vocación de investigación me ha permitido generar productos de alta calidad, que se han traducido en publicaciones en revistas cientificas de alto impacto y presentaciones en congresos internacionales.
+My way of working is based on the capability to face complex challanges regarding analyzing data from several sources, generating algorithms to analize social, economic and environmental data, with a focus on spatially explicit information. I work as consultant, full-time professional or researcher. As part of my job, I have generated multiple scientific publications and working papers, with the intention of sharing methodologies and approaches.
 
 # Educación
 
 ```{r education}
 library(vitae)
 
-edu <- data.frame("Titulo"=c("Ingeniería en Recursos Naturales Renovables","Licenciatura en Ciencias de los Recursos Naturales Renovables"),
+edu <- data.frame("Degree"=c("Renewable Natural Resources Engineer","Bachelor of Sciences in Renewable Natural Resources"),
               "Cuando"=c("2010-2015","2010-2015"),
               "Ins"=c("Universidad de Chile","Universidad de Chile"),
               "Donde"=c("Santiago de Chile","Santiago de Chile"))
@@ -42,10 +40,10 @@ edu <- data.frame("Titulo"=c("Ingeniería en Recursos Naturales Renovables","Lic
   )
 ```
 
-# Habilidades y competencias profesionales
+# Professional skills
 
- * Desarrollo e implementación de algoritmos de análisis de datos estadísticos y geoespaciales.
- * Procesamiento de datos de sensores ópticos satelitales y de aeronaves no tripuladas.
+ * Developmemt and implementation of spatial and statistic data analysis algorithms.
+ * Processing Procesamiento de datos de sensores ópticos satelitales y de aeronaves no tripuladas.
  * Manejo avanzado de lenguaje de programación y software estadístico R.
  * Manejo intermedio-avanzado de software de análisis espacial ArcGIS 10.4, ENVI 5.1 y QGIS.
  * Manejo intermedio de software estadístico SAS (certificado en INE).
