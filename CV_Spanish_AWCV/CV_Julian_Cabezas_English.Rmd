@@ -1,8 +1,8 @@
 ---
 name: Julián Cabezas
-position: "Independent Consultant and FAO Support Professional"
-address: "Chilean, Residence in en Santiago de Chile"
-phone: +569 88678357
+position: "Environmental Data Science Consultant"
+address: "Chilean, Residence in Adelaide, Australia"
+phone: +61484190364
 www: juliancabezas.com
 email: "juliancabezas@gmail.com"
 github: juliancabezas
@@ -29,10 +29,10 @@ if(!tinytex:::is_tinytex()) tinytex::install_tinytex()
 ```{r education}
 library(vitae)
 
-edu <- data.frame("Titulo"=c("Renewable Natural Resources Engineer","Bachelor of Sciences in Renewable Natural Resources"),
-              "Cuando"=c("2010-2015","2010-2015"),
-              "Ins"=c("University of Chile","University of Chile"),
-              "Donde"=c("Santiago, Chile","Santiago, Chile"))
+edu <- data.frame("Titulo"=c("Renewable Natural Resources Engineer","Master of Data Science (Current student)"),
+              "Cuando"=c("2010-2015","2020-2021"),
+              "Ins"=c("University of Chile","University of Adelaide"),
+              "Donde"=c("Santiago, Chile","Adelaide, Australia"))
 
   detailed_entries(edu,
     what = Titulo,
@@ -64,7 +64,7 @@ edu <- data.frame("Titulo"=c("Renewable Natural Resources Engineer","Bachelor of
 ```{r}
 tribble(
   ~ role, ~ company, ~ loc, ~ dates, ~ details,
-  "National Project Personnel for the Unit of Climate Change and Environmental Services, National Forestry Corporation (CONAF)", "Food and Agriculture Organization of the United Nations (FAO)", "Santiago, Chile", "2019 - Current", "Support for the Monitoring and Measurement System of the National Strategy of Climate Change and Vegetation Resources. REDD+ Technical Annex elaboration and reviewing process",
+  "National Project Personnel for the Unit of Climate Change and Environmental Services, National Forestry Corporation (CONAF)", "Food and Agriculture Organization of the United Nations (FAO)", "Santiago, Chile", "2019", "Support for the Monitoring and Measurement System of the National Strategy of Climate Change and Vegetation Resources. REDD+ Technical Annex elaboration and reviewing process",
   "Statistical Analyst", "R&D Department - National Institute of Statistics", "Santiago, Chile", "2018 - 2019", "Development of statistic analysis algorithms, including text mining algorithms for automatic classification of labor sector in national surveys",
   "Remote Sensing Scientist", "Karlsruhe Institute of Technology (KIT)", "Karlsruhe, Germany", "2016 - 2017", "Implementation of disturbance detection algorithms using R and Landsat data (SaMovar Project)",
     "GIS assistant", "University of Chile", "Santiago, Chile", "2015", "GIS elaborations and spatial analysis in the Study for the definition of protection areas in the east piedmont of Santiago project, financed by the United Nations Development Programme (UNDP) "
