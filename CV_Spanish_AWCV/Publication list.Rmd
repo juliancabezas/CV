@@ -1,0 +1,52 @@
+---
+name: Julián Cabezas
+position: "Environmental Data Science Consultant"
+address: "Chilean, Residence in Adelaide, Australia"
+phone: 0484190364
+www: juliancabezas.com
+email: "juliancabezas@gmail.com"
+github: juliancabezas
+linkedin: juliancabezas
+aboutme: "Complete list of publications"
+date: "`r format(Sys.time(), '%B %Y')`"
+output: vitae::awesomecv
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+library(tidyverse)
+library(tinytex)
+if(!tinytex:::is_tinytex()) tinytex::install_tinytex()
+
+```
+
+
+## International journals
+
+ *	**Cabezas**, J., Galleguillos M. & J. Pérez-Quezada. (2016). A method to predict vascular plant richness in a heterogeneous wetland using spectral and textural features and a random forest algorithm. IEEE Geoscience and Remote Sensing Letters 13(5): 646-650.
+ *	**Cabezas**, J., Galleguillos, M., Valdés, A., Fuentes, J.P., Pérez, C. & J. Pérez-Quezada. (2015). Impacts of management on vegetation and carbon stocks in an anthropogenic peatland using field and remote sensing data. Ecosphere 6(12): 282.
+ *	Pérez-Quezada, J. F., Brito, C. E., **Cabezas**, J., Galleguillos, M., Fuentes, J. P., Bown, H. E., & Franck, N. (2016). How many measurements are needed to estimate accurate daily and annual soil respiration fluxes? Analysis using data from a temperate rainforest. Biogeosciences, 13(24), 6599.
+ 
+## Book Chapters
+
+ *	Pérez-Quezada J., Astorga B., **Cabezas** J., Labra F. & Rovira J. Ecologic Planning of the territory applied in the piedmont of Santiago. (2018) In: Pérez-Quezada J. y Rodrigo P. (Eds.) Applied methodologies for the conservation of the biodiverity of Chile. Environmental Sciences Series N°1. Faculty of Agricultural Sciences, University of Chile, Santiago: 379-411 (Original in Spanish)
+ 
+## Work papers and reports
+
+ *	Montaner, M,. Mattar, C., Trujillo, G., **Cabezas**, J., Moraja, J. & J. Caano (2019). REDD+ Results Technical Annex. National Strategy of Climate Change and Vegetation Eesources (ENCCRV). Santiago, Chile. 80p.
+  *	Guerrero, J.  & J. **Cabezas** (2019). Automatic classification of texts using text mining techniques: Application on the job descriptions of the National Survey on Employment. National Institute of Statistics. Santiago, Chile. 59p
+ 
+## Presentations in scientific congresses
+
+ *	**Cabezas**, J & F. Fassnacht (2018). Reconstructing the vegetation disturbance history of a biodiversity hotspot in central Chile using Landsat, BFAST and Landtrendr. International Geoscience and Remote Sensing Symposium (IGARS). Valencia, España, 22-27 July 2018.
+ *	Labra, C., **Cabezas**, J. & C. Little. Delimitation of protection areas for water courses using hidrological modelling tools (2018). Joint conference on Forest and Water. Valdivia, Chile, 5-9 November 2018. (Original in Spanish)
+ *	**Cabezas**, J., Fassnacht, F., Schmidt, T., Kleinschmit, B. & M. Foester. (2016) Satellite-based monitoring of invasive species in central-Chile: Detection of disturbances using Landsat time series. Presentation in the ForestSat 2016 congress. Santiago, Chile. 14-18 November 2016.
+ *	**Cabezas**, J., Fassnacht, F., Schmidt, T., Kleinschmit,B. & M. Foester. (2016) Relating the disturbance history of natural vegetation in central Chile with the spread of three invasive species. Poster presented in “GEO BON Open Science Conference & All Hands Meeting 2016”. Leipzig, Germany. 4-8 de July 2016.
+  *	Foester, M., Schmidt, T., Kleinschmit, B., Fassnacht, F & J. **Cabezas**. (2016) Detecting the spread of invasive tree species in central Chile with combined Landsat and Sentinel-2 data. Poster presented in “GEO BON Open Science Conference & All Hands Meeting 2016”. Leipzig, Germany. 4-8 de July 2016.
+ *	**Cabezas**, J., Galleguillos M. & J. Pérez-Quezada. (2015). Prediction of the richness of vascular plants in a wetland of the Chiloe Island using remote sensing textural variables. Poster presented in the IV Congress of Native Flora, Concepción, Chile. 14-17 October 2015. (Original in Spanish)
+ *	Pérez-Quezada, J., Brito, C., **Cabezas**, J., Salvo, P., Lemunao, P. Flores, E., Valdés, A., Fuentes, J.P., Galleguillos, M. & C. Pérez. (2015). Carbon stocks of an old-growth forest and an anthropogenic peatland in southern Chile. Poster presented in EGU 2015. Vienna, Austria. 12-17 April 2015.
+
+
+
+

@@ -1,0 +1,104 @@
+---
+name: Julián Cabezas
+position: "Environmental Data Science Consultant"
+address: "Chilean, Residence in Adelaide, Australia"
+phone: 0484190364
+www: juliancabezas.com
+email: "juliancabezas@gmail.com"
+github: juliancabezas
+linkedin: juliancabezas
+aboutme: "Data science, Education, R, Python and Java Programming"
+date: "`r format(Sys.time(), '%B %Y')`"
+output: vitae::awesomecv
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+library(tidyverse)
+library(tinytex)
+if(!tinytex:::is_tinytex()) tinytex::install_tinytex()
+
+```
+# Professional Profile
+
+My way of working is based on the capability to face complex challanges regarding analyzing data from several sources, generating algorithms to analize social, economic and environmental data, with a focus on spatially explicit information. I work as consultant, full-time professional or researcher. As part of my job, I have generated multiple scientific publications and working papers, with the intention of sharing methodologies and approaches. I am also interested in education, participating in workshops and as assistant in several courses, while at the same time I am contantly involved in environmental education and musical projects.
+
+# Education
+
+```{r education}
+library(vitae)
+
+edu <- data.frame("Titulo"=c("Renewable Natural Resources Engineer - Bachelor of Science in Renewable Natural Resources","Master of Data Science (Current student)"),
+              "Cuando"=c("2010-2015","2020-2021"),
+              "Ins"=c("University of Chile","University of Adelaide"),
+              "Donde"=c("Santiago, Chile","Adelaide, Australia"))
+
+  detailed_entries(edu,
+    what = Titulo,
+    when = Cuando,
+    with = Ins,
+    where = Donde
+  )
+```
+
+# Professional skills
+
+ * Developmemt and implementation of spatial and statistic data analysis algorithms. Including machine learning algorthms.
+ * Advanced R programming skills.
+ * Basic Java, Python, SQL and Git skills.
+ * UAV Driving and data processing.
+ * Chilean driver licence (Class B). Valid for driving in Australia
+
+## Languages:
+ * Native Language: Spanish
+ * Advanced level of English (score 7.5/9 in academic IELTS).
+ * Basic level of German (A1, certified at KIT, Germany).
+
+
+# Professional Experience
+
+```{r}
+tribble(
+  ~ role, ~ company, ~ loc, ~ dates, ~ details,
+    "Casual Consultant", "The Mullion Group", "Canberra, Australia", "2020 - Present", "Developing of a proof of concept of the implementation of the Generic Carbon Budget Model (GCBM) for forest carbon modelling",
+  "National Project Personnel for the Unit of Climate Change and Environmental Services, National Forestry Corporation (CONAF)", "Food and Agriculture Organization of the United Nations (FAO)", "Santiago, Chile", "2019", "Support for the development of the digital platform of the Monitoring and Measurement System of the National Strategy of Climate Change and Vegetation Resources.",
+  "Statistical Analyst", "R&D Department - National Institute of Statistics", "Santiago, Chile", "2018 - 2019", "Development of statistic analysis algorithms, including text mining algorithms for automatic classification of labor sector in national surveys",
+  "Remote Sensing Scientist", "Karlsruhe Institute of Technology (KIT)", "Karlsruhe, Germany", "2016 - 2017", "Implementation of disturbance detection algorithms using latge scale satellite data (SaMovar Project)",
+    "GIS assistant", "University of Chile", "Santiago, Chile", "2015", "GIS elaborations and spatial analysis in the Study for the definition of protection areas in the east piedmont of Santiago project, financed by the United Nations Development Programme (UNDP) "
+) %>% 
+  detailed_entries(role, dates, company, loc, details)
+```
+
+# Consultancy
+
+ * **2017**: Report elaboration and participation as expert witness in the case D-33-2017 of the environment court of Santiago. with the report “Spatio-temporal analysis of causality and spatial extent of the Nilahue Barahona fire in January 2017".
+ * **2017**: Report for the Forest Institute of Chile (INFOR): “Delineation and classification of water courses in forest basins in southern Chile: Analysis using remote sensing techniques" (forest and water research line)
+ * **2014**: GIS advisor: Diagnosis of the agricultural and soil system of the area of influence of the Carén reservoir. Ambiente Seguro-CODELCO El Teniente. Mapping and analysis of land uses.
+
+# Academic achievements
+
+* A complete list of my academic and professional publications and scientific congresses is available at **[this link ](https://www.juliancabezas.com/files/publication_list.pdf)**
+* Assistant in the following undergraduate courses (University of Chile):
+  * **2012-2014**: Statistics II.
+  * **2013-2014**: Hidrology.
+  * **2011**: Botany.
+  * **2011**: Applied Botany.
+* Scholarship of excellence granted for being the higher score at the admission test for the Carrer of Renewable Natural Resources Engineering
+ 
+# Extra-curricular activity
+
+ * **2013**: Student Representant at the school council (School of Agricultural Sciences)
+ * **2012** Board of the Student Center of the Natural Resources Engineering (Extension manager)
+ * **2010-2015**: Different roles at the "Ecomapu" organization, where several environmental education activities were organized
+ 
+# Hobbies
+ * Trumpet player at Salsa, Cumbia and folkloric bands: Sambaigo, SuperChango and Chocolate.
+ * Participation at trumpet teacher at the "La Castrina" workshops, Santiago, Chile.
+ 
+# References
+
+ *	Dr. Fabian Fassnacht. Post-Doc Position. Institut für Geographie und Geoökologie, (Karlsruher Institut für Technologie, KIT). e-mail: fabian.fassnacht@kit.edu
+ * 	Dr. Jorge Pérez Quezada, Associate Professor. Faculty of Agricultural Sciences (University of Chile). e-mail: jorgepq@uchile.cl
+
+

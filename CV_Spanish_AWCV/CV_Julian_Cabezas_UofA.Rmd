@@ -2,7 +2,7 @@
 name: Julián Cabezas
 position: "Environmental Data Science Consultant"
 address: "Chilean, Residence in Adelaide, Australia"
-phone: +61484190364
+phone: 0484190364
 www: juliancabezas.com
 email: "juliancabezas@gmail.com"
 github: juliancabezas
@@ -45,12 +45,11 @@ edu <- data.frame("Titulo"=c("Renewable Natural Resources Engineer - Bachelor of
 # Professional skills
 
  * Developmemt and implementation of spatial and statistic data analysis algorithms. Including machine learning algorthms.
- * Processing of optical satellite and UAV data.
  * Advancd R programming skills.
- * Basic Python, SQL and Git skills.
- * Intermediate-advanced skills in GIS and remote sensing softwares: ArcGIS 10.4, ENVI 5.1  and QGIS.
  * Intermediate skills in SAS software (certified at the National Institute of Statistics of Chile).
- * UAV Driving: experience with Mikrokopter Okto XL and DJI Phantom 4 Pro models.
+ * Basic Java, Python, SQL and Git skills.
+ * Intermediate-advanced skills in GIS and remote sensing softwares: ArcGIS 10.4, ENVI 5.1  and QGIS.
+ * UAV Driving and data processing: experience with Mikrokopter Okto XL and DJI Phantom 4 Pro models.
  * Chilean driver licence (Class B).
 
 ## Languages:
@@ -64,7 +63,7 @@ edu <- data.frame("Titulo"=c("Renewable Natural Resources Engineer - Bachelor of
 ```{r}
 tribble(
   ~ role, ~ company, ~ loc, ~ dates, ~ details,
-    "Casual Consultant", "The Mullion Group", "Canberra, Australia", "2020 - Present", "Developing of Proof of concept of the implementation of the generic Carbon Budget Model implementation",
+    "Casual Consultant", "The Mullion Group", "Canberra, Australia", "2020 - Present", "Developing of a proof of concept of the implementation of the Generic Carbon Budget Model (GCBM) for forest carbon modelling",
   "National Project Personnel for the Unit of Climate Change and Environmental Services, National Forestry Corporation (CONAF)", "Food and Agriculture Organization of the United Nations (FAO)", "Santiago, Chile", "2019", "Support for the Monitoring and Measurement System of the National Strategy of Climate Change and Vegetation Resources. REDD+ Technical Annex elaboration and reviewing process",
   "Statistical Analyst", "R&D Department - National Institute of Statistics", "Santiago, Chile", "2018 - 2019", "Development of statistic analysis algorithms, including text mining algorithms for automatic classification of labor sector in national surveys",
   "Remote Sensing Scientist", "Karlsruhe Institute of Technology (KIT)", "Karlsruhe, Germany", "2016 - 2017", "Implementation of disturbance detection algorithms using R and Landsat data (SaMovar Project)",

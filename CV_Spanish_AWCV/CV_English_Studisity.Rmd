@@ -1,12 +1,12 @@
 ---
-name: Julián Cabezas
+name: My name here
 position: "Environmental Data Science Consultant"
-address: "Chilean, Residence in Adelaide, Australia"
-phone: +61484190364
-www: juliancabezas.com
-email: "juliancabezas@gmail.com"
-github: juliancabezas
-linkedin: juliancabezas
+address: "Adelaide, Australia"
+phone: 
+www: 
+email: "email"
+github: 
+linkedin: 
 aboutme: "Data science, GIS, Remote Sensing, R Programming"
 date: "`r format(Sys.time(), '%B %Y')`"
 output: vitae::awesomecv
@@ -29,7 +29,7 @@ if(!tinytex:::is_tinytex()) tinytex::install_tinytex()
 ```{r education}
 library(vitae)
 
-edu <- data.frame("Titulo"=c("Renewable Natural Resources Engineer - Bachelor of Science in Renewable Natural Resources","Master of Data Science (Current student)"),
+edu <- data.frame("Titulo"=c("Renewable Natural Resources Engineer","Master of Data Science (Current student)"),
               "Cuando"=c("2010-2015","2020-2021"),
               "Ins"=c("University of Chile","University of Adelaide"),
               "Donde"=c("Santiago, Chile","Adelaide, Australia"))
@@ -64,7 +64,6 @@ edu <- data.frame("Titulo"=c("Renewable Natural Resources Engineer - Bachelor of
 ```{r}
 tribble(
   ~ role, ~ company, ~ loc, ~ dates, ~ details,
-    "Casual Consultant", "The Mullion Group", "Canberra, Australia", "2020 - Present", "Developing of Proof of concept of the implementation of the generic Carbon Budget Model implementation",
   "National Project Personnel for the Unit of Climate Change and Environmental Services, National Forestry Corporation (CONAF)", "Food and Agriculture Organization of the United Nations (FAO)", "Santiago, Chile", "2019", "Support for the Monitoring and Measurement System of the National Strategy of Climate Change and Vegetation Resources. REDD+ Technical Annex elaboration and reviewing process",
   "Statistical Analyst", "R&D Department - National Institute of Statistics", "Santiago, Chile", "2018 - 2019", "Development of statistic analysis algorithms, including text mining algorithms for automatic classification of labor sector in national surveys",
   "Remote Sensing Scientist", "Karlsruhe Institute of Technology (KIT)", "Karlsruhe, Germany", "2016 - 2017", "Implementation of disturbance detection algorithms using R and Landsat data (SaMovar Project)",
@@ -97,6 +96,7 @@ tribble(
  *	Labra, C., **Cabezas**, J. & C. Little. Delimitation of protection areas for water courses using hidrological modelling tools (2018). Joint conference on Forest and Water. Valdivia, Chile, 5-9 November 2018. (Original in Spanish)
  *	**Cabezas**, J., Fassnacht, F., Schmidt, T., Kleinschmit, B. & M. Foester. (2016) Satellite-based monitoring of invasive species in central-Chile: Detection of disturbances using Landsat time series. Presentation in the ForestSat 2016 congress. Santiago, Chile. 14-18 November 2016.
  *	**Cabezas**, J., Fassnacht, F., Schmidt, T., Kleinschmit,B. & M. Foester. (2016) Relating the disturbance history of natural vegetation in central Chile with the spread of three invasive species. Poster presented in “GEO BON Open Science Conference & All Hands Meeting 2016”. Leipzig, Germany. 4-8 de July 2016.
+ *	Foester, M., Schmidt, T., Kleinschmit, B., Fassnacht, F & J. **Cabezas**. (2016) Detecting the spread of invasive tree species in central Chile with combined Landsat and Sentinel-2 data. Poster presented in “GEO BON Open Science Conference & All Hands Meeting 2016”. Leipzig, Germany. 4-8 de July 2016.
  *	**Cabezas**, J., Galleguillos M. & J. Pérez-Quezada. (2015). Prediction of the richness of vascular plants in a wetland of the Chiloe Island using remote sensing textural variables. Poster presented in the IV Congress of Native Flora, Concepción, Chile. 14-17 October 2015. (Original in Spanish)
  *	Pérez-Quezada, J., Brito, C., **Cabezas**, J., Salvo, P., Lemunao, P. Flores, E., Valdés, A., Fuentes, J.P., Galleguillos, M. & C. Pérez. (2015). Carbon stocks of an old-growth forest and an anthropogenic peatland in southern Chile. Poster presented in EGU 2015. Vienna, Austria. 12-17 April 2015.
 
@@ -104,5 +104,6 @@ tribble(
 
  *	Dr. Fabian Fassnacht. Post-Doc Position. Institut für Geographie und Geoökologie, (Karlsruher Institut für Technologie, KIT). e-mail: fabian.fassnacht@kit.edu
  * 	Dr. Jorge Pérez Quezada, Associate Professor. Faculty of Agricultural Sciences (University of Chile). e-mail: jorgepq@uchile.cl
-
+ *	MS. Daniel Montaner. MRV coordinator. National Forestry Corporation (CONAF). e-mail: daniel.montaner@conaf.cl
+ *  MS. Denisse Lopez. R&D Subdirector. National Institute of Statistics (INE). e-mail: denisse.lopez@ine.cl
 
