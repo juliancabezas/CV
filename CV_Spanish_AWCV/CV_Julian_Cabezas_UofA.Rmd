@@ -1,13 +1,13 @@
 ---
 name: Julián Cabezas
-position: "Environmental Data Science Consultant"
+position: "Master of Data Science Student"
 address: "Chilean, Residence in Adelaide, Australia"
 phone: 0484190364
 www: juliancabezas.com
 email: "juliancabezas@gmail.com"
 github: juliancabezas
 linkedin: juliancabezas
-aboutme: "Data science, GIS, Remote Sensing, R Programming"
+aboutme: "Data science, GIS, R and Python Programming"
 date: "`r format(Sys.time(), '%B %Y')`"
 output: vitae::awesomecv
 ---
@@ -42,18 +42,18 @@ edu <- data.frame("Titulo"=c("Renewable Natural Resources Engineer - Bachelor of
   )
 ```
 
-# Professional skills
+# Skills
 
- * Developmemt and implementation of spatial and statistic data analysis algorithms. Including machine learning algorthms.
- * Advancd R programming skills.
- * Intermediate skills in SAS software (certified at the National Institute of Statistics of Chile).
- * Basic Java, Python, SQL and Git skills.
- * Intermediate-advanced skills in GIS and remote sensing softwares: ArcGIS 10.4, ENVI 5.1  and QGIS.
- * UAV Driving and data processing: experience with Mikrokopter Okto XL and DJI Phantom 4 Pro models.
- * Chilean driver licence (Class B).
+ * Development and implementation of spatial and statistic data analysis algorithms.
+ * Implementation of machine learning algorithms.
+ * Intermediate-Advanced R and Python programming skills.
+ * Basic Java, SQL and Git skills.
+ * Intermediate-Advanced skills in GIS and remote sensing software: ArcGIS 10.4, ENVI 5.1  and QGIS.
+ * UAV Driving and data processing
+ * Chilean driver license (Class B, valid in Australia).
 
 ## Languages:
- * Native Language: Spanish
+ * Spanish as native language
  * Advanced level of English (score 7.5/9 in academic IELTS).
  * Basic level of German (A1, certified at KIT, Germany).
 
@@ -63,8 +63,8 @@ edu <- data.frame("Titulo"=c("Renewable Natural Resources Engineer - Bachelor of
 ```{r}
 tribble(
   ~ role, ~ company, ~ loc, ~ dates, ~ details,
-    "Casual Consultant", "The Mullion Group", "Canberra, Australia", "2020 - Present", "Developing of a proof of concept of the implementation of the Generic Carbon Budget Model (GCBM) for forest carbon modelling",
-  "National Project Personnel for the Unit of Climate Change and Environmental Services, National Forestry Corporation (CONAF)", "Food and Agriculture Organization of the United Nations (FAO)", "Santiago, Chile", "2019", "Support for the Monitoring and Measurement System of the National Strategy of Climate Change and Vegetation Resources. REDD+ Technical Annex elaboration and reviewing process",
+    "Casual Consultant", "The Mullion Group", "Canberra, Australia", "2020", "Developing of a proof of concept of the implementation of the Generic Carbon Budget Model (GCBM) for forest carbon modelling",
+  "National Project Personnel, REDD+ project", "Food and Agriculture Organization of the United Nations (FAO)", "Santiago, Chile", "2019", "Support for the Monitoring and Measurement System of the National Strategy of Climate Change and Vegetation Resources. REDD+ Technical Annex elaboration and reviewing process",
   "Statistical Analyst", "R&D Department - National Institute of Statistics", "Santiago, Chile", "2018 - 2019", "Development of statistic analysis algorithms, including text mining algorithms for automatic classification of labor sector in national surveys",
   "Remote Sensing Scientist", "Karlsruhe Institute of Technology (KIT)", "Karlsruhe, Germany", "2016 - 2017", "Implementation of disturbance detection algorithms using R and Landsat data (SaMovar Project)",
     "GIS assistant", "University of Chile", "Santiago, Chile", "2015", "GIS elaborations and spatial analysis in the Study for the definition of protection areas in the east piedmont of Santiago project, financed by the United Nations Development Programme (UNDP) "
@@ -72,13 +72,7 @@ tribble(
   detailed_entries(role, dates, company, loc, details)
 ```
 
-# Consultancy
-
- * **2017**: Report elaboration and participation as expert witness in the case D-33-2017 of the environment court of Santiago. with the report “Spatio-temporal analysis of causality and spatial extent of the Nilahue Barahona fire in January 2017".
- * **2017**: Report for the Forest Institute of Chile (INFOR): “Delineation and classification of water courses in forest basins in southern Chile: Analysis using remote sensing techniques" (forest and water research line)
- * **2014**: GIS advisor: Diagnosis of the agricultural and soil system of the area of influence of the Carén reservoir. Ambiente Seguro-CODELCO El Teniente. Mapping and analysis of land uses.
-
-# Academic achievements
+# Scientific Publications
 
 ## International journals
 
@@ -98,6 +92,12 @@ tribble(
  *	**Cabezas**, J., Fassnacht, F., Schmidt, T., Kleinschmit,B. & M. Foester. (2016) Relating the disturbance history of natural vegetation in central Chile with the spread of three invasive species. Poster presented in “GEO BON Open Science Conference & All Hands Meeting 2016”. Leipzig, Germany. 4-8 de July 2016.
  *	**Cabezas**, J., Galleguillos M. & J. Pérez-Quezada. (2015). Prediction of the richness of vascular plants in a wetland of the Chiloe Island using remote sensing textural variables. Poster presented in the IV Congress of Native Flora, Concepción, Chile. 14-17 October 2015. (Original in Spanish)
  *	Pérez-Quezada, J., Brito, C., **Cabezas**, J., Salvo, P., Lemunao, P. Flores, E., Valdés, A., Fuentes, J.P., Galleguillos, M. & C. Pérez. (2015). Carbon stocks of an old-growth forest and an anthropogenic peatland in southern Chile. Poster presented in EGU 2015. Vienna, Austria. 12-17 April 2015.
+
+# Consultancy
+
+ * **2017**: Report elaboration and participation as expert witness in the case D-33-2017 of the environment court of Santiago. with the report “Spatio-temporal analysis of causality and spatial extent of the Nilahue Barahona fire in January 2017".
+ * **2017**: Report for the Forest Institute of Chile (INFOR): “Delineation and classification of water courses in forest basins in southern Chile: Analysis using remote sensing techniques" (forest and water research line)
+ * **2014**: GIS advisor: Diagnosis of the agricultural and soil system of the area of influence of the Carén reservoir. Ambiente Seguro-CODELCO El Teniente. Mapping and analysis of land uses.
 
 # References
 
