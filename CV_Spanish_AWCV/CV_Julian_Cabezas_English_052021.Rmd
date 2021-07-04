@@ -60,10 +60,10 @@ edu <- data.frame("Titulo"=c("Renewable Natural Resources Engineer","Master of D
 ```{r}
 tribble(
   ~ role, ~ company, ~ loc, ~ dates, ~ details,
-   "Consultant", "The Mullion Group", "Canberra, Australia", "2020-2021", "Implementing of the Generic Carbon Budget Model (GCBM) for the estimation of REDD+ carbon emissions and removals in Chile",
+   "Consultant", "The Mullion Group", "Canberra, Australia", "2020-2021", "Implementation of the Generic Carbon Budget Model (GCBM) for the estimation of REDD+ carbon emissions and removals in Chile",
   "National Project Personnel for the Unit of Climate Change and Environmental Services, National Forestry Corporation (CONAF)", "Food and Agriculture Organization of the United Nations (FAO)", "Santiago, Chile", "2019", list("Support for the Monitoring and Measurement System of the National Strategy of Climate Change and Vegetation Resources", "REDD+ Technical Annex elaboration and reviewing process"),
-  "Statistical Analyst", "R&D Department - National Institute of Statistics", "Santiago, Chile", "2018 - 2019", list("Development of statistic analysis algorithms in national survey data"," implementation of text mining algorithms for automatic classification of labor sector in national surveys"),
-  "Remote Sensing Scientist", "Karlsruhe Institute of Technology (KIT)", "Karlsruhe, Germany", "2016 - 2017", "Implementation of disturbance detection algorithms BFAST and LandtrendR Landsat time series datadata (SaMovar Project)",
+  "Statistical Analyst", "R&D Department - National Institute of Statistics", "Santiago, Chile", "2018 - 2019", list("Development of statistic analysis algorithms in national survey data"," Implementation of text mining algorithms for automatic classification of labor sector in national surveys"),
+  "Remote Sensing Scientist", "Karlsruhe Institute of Technology (KIT)", "Karlsruhe, Germany", "2016 - 2017", "Implementation of disturbance detection algorithms BFAST and LandtrendR on Landsat time series data (SaMovar Project)",
     "GIS assistant", "University of Chile", "Santiago, Chile", "2015", "GIS elaborations and spatial analysis in the Study for the definition of protection areas in the east piedmont of Santiago project, financed by the United Nations Development Programme (UNDP) "
 ) %>% 
   detailed_entries(role, dates, company, loc, details)
