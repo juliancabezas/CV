@@ -1,0 +1,109 @@
+---
+name: Julian Cabezas 
+position: "Consultor en Medio Ambiente y Data Science"
+address: "Adelaide, Australia"
+phone: +61 484190364
+www: www.juliancabezas.com
+email: "juliancabzas@gmail.com"
+github: juliancabezas
+linkedin: juliancabezas
+aboutme: "Data science, REDD+, SIG, Programación en R y Python"
+date: "`r format(Sys.time(), '%B %Y')`"
+headcolor: "414141"
+fontsize: 8pt
+output: 
+  vitae::awesomecv
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+library(tidyverse)
+library(tinytex)
+if(!tinytex:::is_tinytex()) tinytex::install_tinytex()
+
+```
+<!-- # Perfil Profesional -->
+
+<!-- My way of working is based on the capability to face complex challanges regarding analyzing data from several sources, generating algorithms to analize social, economic and environmental data, with a focus on spatially explicit information. I work as consultant, full-time professional or researcher. As part of my job, I have generated multiple scientific publications and working papers, with the intention of sharing methodologies and approaches. -->
+
+# Education
+
+```{r education}
+library(vitae)
+
+edu <- data.frame("Titulo"=c("Ingenieria en Recursos Naturales Renovables","Master of Data Science (Estudiante)"),
+              "Cuando"=c("2010-2015","2020-2021"),
+              "Ins"=c("Universidad de Chile","University of Adelaide"),
+              "Donde"=c("Santiago, Chile","Adelaide, Australia"))
+
+  detailed_entries(edu,
+    what = Titulo,
+    when = Cuando,
+    with = Ins,
+    where = Donde
+  )
+```
+
+# Habilidades Profesionales
+
+ * Desarrollo e implementación de de análisis de datos espaciales.
+ * Estimación de emisiones forestales para reportes del enfoque REDD+.
+ * Procesamiento de datos de sensores ópticos satelitales y de aeronaves no tripuladas.
+ * Manejo avanzado de lenguajes de programación R y Python.
+ * Manejo avanzado de software de análisis espacial ArcGIS 10.4, ENVI 5.1 y QGIS.
+ * Conducción de UAV: experiencia con modelos Mikrokopter Okto XL, DJI Phantom 4 Pro.
+ * Licencia de conducir clase B.
+ * **Idiomas**: Español nativo, inglés avanzado (puntaje 7.5/9 en prueba IELTS), Alemán básico
+
+
+# Experiencia profesional
+
+```{r}
+tribble(
+  ~ role, ~ company, ~ loc, ~ dates, ~ details,
+    "Consultor", "The Mullion Group", "Canberra, Australia", "2020-2021", "Implementacion del modelo de carbono forestal GCBM para la estimación de emisiones forestales en Chile",
+  "Profesional de Apoyo (National Project Personnel)", "Food and Agriculture Organization of the United Nations (FAO)", "Santiago, Chile", "2019", list("Apoyo en operacion del sistema de medicion y monitoreo de la Estrategia Nacional de Cambio Climatico y Recursos Vegetaciones (ENCCRV).", "Elaboracion y revision del Anexo Tecnico de Resultados REDD+ de Chile"),
+  "Analista Estadístico", "Instituto Nacional de Estadísticas (Departamento de Innovación y Desarrollo)", "Santiago, Chile", "2018 - 2019", list("Desarrollo de algoritmos de analisis estadistico"," Implementation de algoritmos de text mining para la clasificacion automatica de textos de la encuesta nacional del empleo"),
+  "Científico en Teledetección (Remote Sensing Scientist)", "Karlsruhe Institute of Technology (KIT)", "Karlsruhe, Germany", "2016 - 2017", "Implementacion de algoritmos de detección de perturbaciones en la vegetación natural de Chile utilizando BFAST y LandTrendR en series de tiempo Landsat (Proyecto SaMovar)",
+    "Asistente en Sistemas de informacion Geografica", "Universidad de Chile", "Santiago, Chile", "2015", 'Construccion de SIG y analisis espacial para el "Estudio para la definición de áreas de protección natural y/o patrimonial en el piedemonte del sector oriente", financiado por el Programa de las Naciones Unidas para el desarrollo (PNUD)'
+) %>% 
+  detailed_entries(role, dates, company, loc, details)
+```
+# Consultoria
+
+ * **2017**: Elaboración de informe y declaración como testigo experto en el caso D-33-2017 del Tribunal Ambiental de Santiago (Incendio Nilahue-Barahona) con la prueba “Análisis espacio-temporal de causalidad y efectos espaciales del incendio Nilahue Barahona de enero de 2017”.
+ * **2017**: Asesoría para el Instituto Forestal de Chile (INFOR): “Delineación y clasificación de cursos de agua en cuencas forestales del sur de Chile: Análisis utilizando técnicas de Teledetección” (Línea de investigación “Bosque y Agua”).
+ * **2014**: Asesor en SIG: Diagnóstico del sistema agropecuario y suelo del área de influencia del embalse Carén. Ambiente Seguro-CODELCO El Teniente. Elaboración de mapas y análisis de usos de suelo.
+
+# Publicaciones
+
+## Revistas internaciones
+
+ *	**Cabezas**, J., Galleguillos M. & J. Pérez-Quezada. (2016). A method to predict vascular plant richness in a heterogeneous wetland using spectral and textural features and a random forest algorithm. IEEE Geoscience and Remote Sensing Letters 13(5): 646-650.
+ *	**Cabezas**, J., Galleguillos, M., Valdés, A., Fuentes, J.P., Pérez, C. & J. Pérez-Quezada. (2015). Impacts of management on vegetation and carbon stocks in an anthropogenic peatland using field and remote sensing data. Ecosphere 6(12): 282.
+ *	Pérez-Quezada, J. F., Brito, C. E., **Cabezas**, J., Galleguillos, M., Fuentes, J. P., Bown, H. E., & Franck, N. (2016). How many measurements are needed to estimate accurate daily and annual soil respiration fluxes? Analysis using data from a temperate rainforest. Biogeosciences, 13(24), 6599.
+ 
+## Capitulos de libros
+
+ *	Pérez-Quezada J., Astorga B., **Cabezas** J., Labra F. & Rovira J. Planificación ecológica del territorio aplicada al piedemonte de Santiago. (2018) En: Pérez-Quezada J. y Rodrigo P. (Eds.) Metodologías aplicadas para la conservación de la biodiversidad en Chile. Serie Ciencias Ambientales N°1. Facultad de Ciencias Agronómicas, Universidad de Chile, Santiago: 379-411.
+ 
+## Presentaciones en Congresos Internacionales y Nacionales
+
+ *	**Cabezas**, J & F. Fassnacht (2018). Reconstructing the vegetation disturbance history of a biodiversity hotspot in central Chile using Landsat, BFAST and Landtrendr. International Geoscience and Remote Sensing Symposium (IGARS). Valencia, España, 22-27 de julio 2018.
+ *	Labra, C., **Cabezas**, J. & C. Little. Delimitación de zonas de protección de cursos de agua usando herramientas de modelación hidrológica (2018). Conferencia conjunta de Bosques y Agua. Valdivia, Chile, 5-9 noviembre 2018.
+ *	**Cabezas**, J., Fassnacht, F., Schmidt, T., Kleinschmit, B. & M. Foester. (2016) Satellite-based monitoring of invasive species in central-Chile: Detection of disturbances using Landsat time series. Presentación Oral en el congreso ForestSat 2016. Santiago de Chile. 14-18 de noviembre 2016.
+ *	**Cabezas**, J., Fassnacht, F., Schmidt, T., Kleinschmit,B. & M. Foester. (2016) Relating the disturbance history of natural vegetation in central Chile with the spread of three invasive species. Poster presentado en “GEO BON Open Science Conference & All Hands Meeting 2016”. Leipzig, Alemania.4-8 de Julio 2016.
+ *	Foester, M., Schmidt, T., Kleinschmit, B., Fassnacht, F & J. **Cabezas**. (2016) Detecting the spread of invasive tree species in central Chile with combined Landsat and Sentinel-2 data. Poster presentado en “GEO BON Open Science Conference & All Hands Meeting 2016”. Leipzig, Alemania.4-8 de Julio 2016.
+ *	**Cabezas**, J., Galleguillos M. & J. Pérez-Quezada. (2015). Predicción de la riqueza de plantas vasculares en un humedal de la Isla de Chiloé utilizando variables texturales derivadas de teledetección. Poster presentado en el IV Congreso de Flora Nativa, Concepción, Chile. 14-17 de octubre 2015
+ *	Pérez-Quezada, J., Brito, C., **Cabezas**, J., Salvo, P., Lemunao, P. Flores, E., Valdés, A., Fuentes, J.P., Galleguillos, M. & C. Pérez. (2015). Carbon stocks of an old-growth forest and an anthropogenic peatland in southern Chile. Poster presentado en EGU 2015. Vienna, Austria. 12-17 abril 2015.
+ 
+
+
+# Referencias
+
+ *	Dr. Robert Waterworth. Director. The Mullion Group. e-mail: robert.waterworth@mulliongroup.com
+ *	Dr. Fabian Fassnacht. Post-Doc Position. Institut für Geographie und Geoökologie, (Karlsruher Institut für Technologie, KIT). e-mail: fabian.fassnacht@kit.edu
+ * 	Dr. Jorge Pérez Quezada, Associate Professor. Faculty of Agricultural Sciences (University of Chile). e-mail: jorgepq@uchile.cl
+
+
